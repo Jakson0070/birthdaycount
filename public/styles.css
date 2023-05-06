@@ -1,0 +1,61 @@
+body {
+  background: #e17055;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  width: 80%;
+  height: 480px;
+}
+
+h1 {
+  font-family: "Poiret One", cursive;
+  text-align: center;
+  margin-top: 20%;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: white;
+}
+
+.timer {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 0.7em;
+  margin-top: 100px;
+  letter-spacing: 5px;
+}
+
+.box {
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.days {
+  background: #00b894;
+}
+
+.hours {
+  background: #fab1a0;
+}
+
+.minutes {
+  background: #0984e3;
+}
+
+.seconds {
+  background: #fdcb6e;
+}
+
+.numbers {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 4em;
+}
